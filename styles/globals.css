@@ -10,9 +10,15 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+@layer utilities {
+  .shadow-drop {
+    box-shadow: 7px 7px 7px #666666;
+  }
+}
+
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
+    @apply bg-[#fff] text-[#1f2937] tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -32,6 +38,6 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-black text-white 
   }
 }
