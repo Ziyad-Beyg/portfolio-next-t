@@ -178,11 +178,11 @@ const resume = () => {
         </div> */}
 
         <div className="flex justify-center my-6">
-          <button className="rounded-2 p-4 mx-auto font-medium">
-            <a href="/cv.pdf" download>
+          <a href="/cv.pdf" download>
+            <button className="rounded-2 p-4 mx-auto font-medium">
               Download Resume
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </div>
     </>
